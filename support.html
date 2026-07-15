@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>תמיכה · Skippy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap&subset=hebrew,latin" rel="stylesheet">
+<style>
+  :root{
+    --bg:#EEF2F4; --card:#FFFFFF; --ink:#0E2A3B; --muted:#5A7481; --line:#DCE5EA;
+    --teal:#0C6E7B; --navy:#0C3848;
+  }
+  @media (prefers-color-scheme:dark){:root{
+    --bg:#071A24; --card:#0C2632; --ink:#EAF2F5; --muted:#93AcB6; --line:#173340; --teal:#3FB6C0; --navy:#0A2E3D;}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:'Rubik',-apple-system,'Heebo',system-ui,sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased;}
+  .hero{background:linear-gradient(157deg,var(--navy),#06222F);color:#fff;padding:56px 24px 44px;}
+  .hero-in{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:16px;}
+  .mark{width:52px;height:52px;flex:none}
+  .hero h1{margin:0;font-size:30px;font-weight:900;letter-spacing:-.5px}
+  .hero .brand{font-weight:700;opacity:.8;font-size:15px;direction:ltr;letter-spacing:.5px}
+  .wrap{max-width:720px;margin:0 auto;padding:40px 24px 80px}
+  .lead{font-size:18px;color:var(--ink)}
+  .contact{display:flex;flex-wrap:wrap;gap:14px;margin:24px 0 8px}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--teal);color:#fff;
+    text-decoration:none;font-weight:700;padding:13px 22px;border-radius:12px;font-size:16px}
+  .btn.ghost{background:transparent;color:var(--teal);border:1.5px solid var(--line)}
+  h2{font-size:22px;font-weight:700;margin:44px 0 6px}
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:2px 18px;margin:12px 0}
+  summary{cursor:pointer;font-weight:700;padding:16px 0;list-style:none;font-size:16.5px}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"＋";color:var(--teal);font-weight:700;margin-inline-end:10px}
+  details[open] summary::before{content:"－"}
+  details p{margin:0 0 16px;color:var(--muted);font-size:15.5px}
+  a{color:var(--teal)}
+  footer{max-width:720px;margin:0 auto;padding:0 24px 60px;color:var(--muted);font-size:13px;direction:ltr;text-align:center}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-in">
+    <svg class="mark" viewBox="0 0 1024 1024" aria-hidden="true"><path d="M498 214 L498 632 L250 632 C300 470 380 340 498 214 Z" fill="#fff"/><path d="M534 300 L534 632 L742 632 C690 502 620 396 534 300 Z" fill="#fff"/><path d="M214 664 L810 664 C778 762 668 820 512 820 C356 820 246 762 214 664 Z" fill="#fff"/></svg>
+    <div>
+      <div class="brand">Skippy</div>
+      <h1>תמיכה ועזרה</h1>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <p class="lead">נתקעתם, מצאתם שאלה שגויה, או סתם רוצים להגיד שלום? נשמח לעזור.</p>
+  <div class="contact">
+    <a class="btn" href="mailto:shegs.studio@gmail.com?subject=תמיכה%20-%20Skippy">✉️ שליחת מייל לתמיכה</a>
+    <a class="btn ghost" href="mailto:shegs.studio@gmail.com?subject=דיווח%20על%20שאלה%20שגויה">🚩 דיווח על שאלה שגויה</a>
+  </div>
+  <p class="muted" style="color:var(--muted);font-size:14px">בדרך כלל נחזור אליכם תוך 1–2 ימי עסקים.</p>
+
+  <h2>שאלות נפוצות</h2>
+
+  <details>
+    <summary>לאילו רישיונות Skippy מתאימה?</summary>
+    <p>לכל רישיונות המשיט לשיט פרטי: אופנוע ים (משיט 11), סירת מנוע — עוצמה א' וב' (משיט 12 ו-13), וסקיפר / שיט חופי (משיט 30). התכנים כוללים ימאות, ניווט ומכונאות.</p>
+  </details>
+
+  <details>
+    <summary>האם השאלות הן מהמאגר הרשמי?</summary>
+    <p>כן. השאלות מבוססות על מאגרי השאלות הרשמיים של רשות הספנות והנמלים, ומתעדכנות עם שינויים במאגר.</p>
+  </details>
+
+  <details>
+    <summary>מצאתי שאלה או תשובה שגויה. מה עושים?</summary>
+    <p>שלחו לנו מייל עם מספר השאלה והמסלול (למשל "מכונאות, שאלה 12"), ונתקן במהירות. תיקוני תוכן מתפרסמים לכל המשתמשים בלי צורך בעדכון גרסה.</p>
+  </details>
+
+  <details>
+    <summary>האם צריך חשבון? והאם אפשר בלי אינטרנט?</summary>
+    <p>אפשר לתרגל גם בלי חשבון. התחברות (מייל או Google) מסנכרנת את ההתקדמות בין המכשירים. האפליקציה עובדת גם ללא חיבור לאינטרנט — הנתונים נשמרים במכשיר ומסתנכרנים כשחוזרים לרשת.</p>
+  </details>
+
+  <details>
+    <summary>איך מוחקים את החשבון והנתונים?</summary>
+    <p>שלחו בקשה ל-<a href="mailto:shegs.studio@gmail.com">shegs.studio@gmail.com</a> ונמחק את החשבון והנתונים הקשורים אליו. מחיקה מתוך האפליקציה תתווסף בגרסה עתידית.</p>
+  </details>
+
+  <details>
+    <summary>איפה מדיניות הפרטיות?</summary>
+    <p>מדיניות הפרטיות המלאה זמינה <a href="./privacy.html">כאן</a>.</p>
+  </details>
+</div>
+
+<footer>© 2026 Skippy · shegs.studio@gmail.com</footer>
+</body>
+</html>
